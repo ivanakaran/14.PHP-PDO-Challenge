@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ /* -------index.html----------- */
+
+.parallax {
+  background-image: url("./img/pexels-lisa-fotios-730256.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centered-heading{
+  text-align: center;
+  padding-top: 260px;
+}
+
+.heading{
+  margin: 0;
+  margin-bottom: 30px;
+  color: rgba(67, 216, 146, 0.87);
+  color: #fff;
+  font-weight: bold; 
+  }
+
+.home-button{
+  text-decoration: none;
+  color: #fff;
+  background: cornflowerblue;
+  padding:10px 20px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+.home-button:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+
+/*------form.php------*/
+
+.create-background{
+  background-color: cornflowerblue;
+}
+
+/* ------page.php------ */
+
+/* page.php */
+
+.nav-style {
+  background-color: cornflowerblue;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover{
+  background-color: azure;
+  color: cornflowerblue;
+}
+
+.cover_photo_h1{
+  padding-top: 120px;
+}
+
+.cover_photo_h1, .cover_photo_h3{
+  color: #fff; 
+}
+
+#aboutUs,#service_product, #contact {
+  background-color: #FFD78F;
+}
+
+.webpage-form, footer{
+  background-color: cornflowerblue;
+}
+.icons a{
+  background-color: #FFD78F;
+  color: cornflowerblue;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+
